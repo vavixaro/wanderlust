@@ -1,0 +1,39 @@
+{
+  "name": "Wanderlust — App de Viajes",
+  "short_name": "Wanderlust",
+  "description": "Tu app personal de viajes — rutas, itinerarios, traductor y contactos útiles",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0c0c12",
+  "theme_color": "#e8a020",
+  "orientation": "any",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='115' fill='%230c0c12'/><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%23e8a020'/><stop offset='1' stop-color='%23d44e28'/></linearGradient></defs><rect width='512' height='512' rx='115' fill='url(%23g)' opacity='0.9'/><text x='256' y='360' font-size='280' text-anchor='middle' fill='white' font-family='Georgia,serif' font-weight='900'>W</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='43' fill='%230c0c12'/><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%23e8a020'/><stop offset='1' stop-color='%23d44e28'/></linearGradient></defs><rect width='192' height='192' rx='43' fill='url(%23g)' opacity='0.9'/><text x='96' y='135' font-size='105' text-anchor='middle' fill='white' font-family='Georgia,serif' font-weight='900'>W</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["travel", "lifestyle"],
+  "shortcuts": [
+    {
+      "name": "Itinerario",
+      "url": "./index.html#ruta=shikoku",
+      "description": "Ver itinerarios de viaje"
+    },
+    {
+      "name": "Traductor",
+      "url": "./index.html",
+      "description": "Traductor de japonés"
+    }
+  ]
+}
